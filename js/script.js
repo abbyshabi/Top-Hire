@@ -1,14 +1,11 @@
-var slideIndex = 0;
-showSlides();
+$(document).ready(function(){
+  $("form.well").submit(function(event){
+    event.preventDefault();
 
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
+if (true) {
+
 }
+    alert("You have successfully logged in");
+    window.location.href="vendor.html"
+  });
+});
