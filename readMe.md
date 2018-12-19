@@ -1,5 +1,5 @@
-# Pig-Dice Game
-#### TOP-HIre, an online based application that helps to link customers and respective vendors. Final project for prep-program.  (December,2018)
+# Top-Hire Game
+#### TOP-HIRE, an online based application that helps to link customers and respective vendors. Final project for prep-program.  (December,2018)
 #### By **Oluwadamilola Shabi, James Mwangi Nduge, Joy Wendo , Elizabeth Andiko , Ian Kabugi **
 ## Description
 Top-Hire is a web based application that helps facilates business transactions between customers and respective vendors. Users can view products and make bookings online.
