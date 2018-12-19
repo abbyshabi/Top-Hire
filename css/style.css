@@ -294,7 +294,6 @@ body{
     19% { opacity: 0 }
     100% { opacity: 0 }
 }
-/* Show at least something when animations not supported */
 .no-cssanimations .cb-slideshow li span{
   opacity: 1;
 }
@@ -304,7 +303,8 @@ body{
 }
 @media screen and (max-width: 600px) { 
     .cb-slideshow li div h3 { font-size: 80px }
-}p.codrops-demos a.current-demo,
+}
+/*p.codrops-demos a.current-demo,
 p.codrops-demos a.current-demo:hover{
     display: inline-block;
   border: 1px solid #6d0019;
@@ -320,7 +320,7 @@ p.codrops-demos a.current-demo:hover{
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  background:#f2f2f2;
+  background: #f2f2f2;
   background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a90329), color-stop(44%,#8f0222), color-stop(100%,#6d0019));
   background: -webkit-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%);
@@ -347,7 +347,8 @@ p.codrops-demos a.current-demo,
 p.codrops-demos a.current-demo:hover{
   color: #A5727D;
   background: #f2f2f2;
-}
+}*/
+
 button{
     background-color: #4CAF50; /* Green */
     border: none;
@@ -381,3 +382,30 @@ p .codrops-demos a{
         padding-top: 1.5px;
 
 }
+h1{
+    font-size: 2.0em;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #339933;
+    padding: 10px;
+    padding-top: 30px;
+    margin-top: 50px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+  }
+ img{
+     width: 50%;
+     height: 50%;
+ }
