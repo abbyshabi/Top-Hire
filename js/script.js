@@ -12,3 +12,18 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block"; 
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
+
+
+
+
+$(document).ready(function() {
+  $("form.vendor").submit(function(event) {
+    event.preventDefault();
+      alert("you have successfully submitted your details");
+      window.location.href = "index.html";
+
+  });
+
+
+
+});
