@@ -320,7 +320,7 @@ p.codrops-demos a.current-demo:hover{
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  background: #a90329;
+  background:#f2f2f2;
   background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a90329), color-stop(44%,#8f0222), color-stop(100%,#6d0019));
   background: -webkit-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%);
@@ -346,7 +346,7 @@ p.codrops-demos a:active{
 p.codrops-demos a.current-demo,
 p.codrops-demos a.current-demo:hover{
   color: #A5727D;
-  background: #6d0019;
+  background: #f2f2f2;
 }
 button{
     background-color: #4CAF50; /* Green */
@@ -369,4 +369,15 @@ h1{
   padding-top:350px ;
     position:center;
     text-align: center;
+}
+p .codrops-demos a{
+   
+         display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        padding-top: 1.5px;
+
 }
