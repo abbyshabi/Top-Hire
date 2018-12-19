@@ -1,6 +1,6 @@
 # Pig-Dice Game
-#### A web based game application,Players keep rolling the die and the first to attain 100 points wins. (December,2018)
-#### By **Oluwadamilola Shabi, James Nduge, Joy Wendo , Elizabeth Andiko , Ian Kabugi **
+#### TOP-HIre, an online based application that helps to link customers and respective vendors. Final project for prep-program.  (December,2018)
+#### By **Oluwadamilola Shabi, James Mwangi Nduge, Joy Wendo , Elizabeth Andiko , Ian Kabugi **
 ## Description
 Top-Hire is a web based application that helps facilates business transactions between customers and respective vendors. Users can view products and make bookings online.
 ## Setup/Installation Requirements
@@ -16,6 +16,12 @@ Top-Hire is a web based application that helps facilates business transactions b
 |On user's page click on equipment/venue/vehicles | Click Venue | opens venue page with listings
 |venue page click on view| clicks view | shows product page with information and price.
 | On product's page click book | Click book | shows calendar and availability of days.
+## Collaborators
+* Oluwadamilola Shabi
+* Elizabeth Andiko
+* Joy Wendo
+* James Mwangi Nduge
+* Ian Kabugi
 
 ## Live Demo
  Here is a link to a live demo : https://abbyshabi.github.io/Top-Hire/
