@@ -1,5 +1,6 @@
 $(document).ready(function(){
     $("#eq, #vh, #vn").show();
+    $("#vehicle,#venue,#equipment").hide();
 
    })
    $(document).ready(function(){
@@ -25,6 +26,7 @@ $(document).ready(function(){
 
    $(document).ready(function(){
     $("#eq, #vh,#vn").show();
+    $("#vehicle,#venue,#equipment").hide();
 
    })
    $(document).ready(function(){
