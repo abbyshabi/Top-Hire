@@ -368,3 +368,11 @@ h1{
  h2{
   color: #4CAF50;
  }
+.bttn{
+    margin-top: 350px;
+    float: bottom;
+}
+#img{
+    height: 40%;
+    width: 50%;
+}
