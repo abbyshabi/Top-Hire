@@ -1,0 +1,341 @@
+html, body {
+    margin: 0; height: 100%; overflow: hidden
+
+}
+.body{
+    scroll-behavior: inherit;
+}
+/* Split the screen in half */
+.split {
+    height: 90%;
+
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  /* Control the left side */
+  .left {
+
+    width: 50%;
+  }
+
+  /* Control the right side */
+  .right {
+    right: 0;
+   width: 50%;
+  }
+
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  /* Style the image inside the centered container, if needed */
+  .centered img {
+    width: auto;
+
+  }
+body{
+    position: fixed;
+	align-items: center;
+	padding-right: 50px;
+	padding-top: 50px;
+    position: relative;
+    height: 100%;
+    width: 1000px;
+    min-height: 0%;
+    max-height: 75%;
+
+}
+img{
+    size:100%;
+    padding-bottom: 50px;
+    padding-top: 25px;
+    height: 700px;
+}
+.image{
+  margin-left: 60px;
+ margin-right: 800px;
+ height: 100px;
+ padding: 25px;
+ padding-top: 0px;
+}
+.header{
+	font-size:40px;
+	width: 1000px;
+	margin: auto;
+	margin-top: 50px;
+}
+.container{
+	background-color:white;
+	margin-top: auto;
+    text-align: center;
+    margin-left: 250px;
+
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    padding: 10px;
+    margin-left: 250px;
+    margin-right: auto;
+    position: center;
+  }
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  /*border: 1px solid; /*rgba(0, 0);/* 0, 0.8);*/
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  }
+button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+.center{
+	padding-top:50px ;
+   	position:center;
+   	text-align: center;
+}
+.header3{
+    margin-top: 30px;
+	text-align: center;
+}
+/* Place the navbar at the bottom of the page, and make it stick */
+.bottomlinks {
+	padding-top: 2px;
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.bottomlinks a{
+				float: left;
+			   display: block;
+			  color: #f2f2f2;
+			  text-align: center;
+			  padding: 14px 16px;
+			  text-decoration: none;
+			  font-size: 17px;
+			  padding-top: 1.5px;
+}
+.bottomlinks a:hover {
+  background: #f1f1f1;
+  color: black;
+}
+.bottomlinks a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.main {
+  padding: 16px;
+  margin-bottom: 30px;
+}
+h1{
+	font-size:45px;
+	width: 1000px;
+	margin: auto;
+	margin-top: 80px;
+	text-align: center;
+}
+p{
+	font-size:20px;
+	width: 1200px;
+	margin: auto;
+   text-align: center;
+}
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    align-content: center;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+.header4 {
+	background-color:  #4CAF50; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: initial;
+    display: inline-block;
+    font-size: 16px;
+    padding-bottom: 25px
+    padding-top:20px;
+    /*background-color: #29a329;
+    color: #ffffff;
+    padding: 5px;
+    width:500px;
+    height: 100px;
+    text-align: center;*/
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: black;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+.center1{
+   	position:center;
+   	text-align: center;
+   	width: 500px;
+   	margin-left: 200px;
+   	margin-top: 20px;
+   	height: 200px;
+}
+.d{
+	font-size:20px;
+	width: 800px;
+	margin-top:50px;
+	margin-left:50px;
+   text-align: center;
+}
+.h1{
+	font-size:20px;
+	width: 1000px;
+	margin: auto;
+	margin-top: 30px;
+}
+/* Slideshow container */
+.slideshow-container {
+    max-width: 2000px;
+    position: relative;
+    margin: auto;
+    padding-top: 50px;
+  }
+
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+}
+img{
+
+}
+
