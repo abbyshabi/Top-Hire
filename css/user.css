@@ -1,0 +1,179 @@
+
+.img{
+margin-right: 800px;
+height: 100px;
+width: 200px;
+margin-left: 0%;
+}
+.header{
+   font-size:60px;
+   width: 1000px;
+   margin: auto;
+   margin-top: 150px;
+}
+button{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding-bottom: 5px;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+     position:center;
+     text-align: center;
+}
+.header3{
+   margin-top: 100px;
+   text-align: center;
+}
+/* Place the navbar at the bottom of the page, and make it stick */
+.bottomlinks {
+   padding-top: 2px;
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.bottomlinks a{
+               float: left;
+              display: block;
+             color: #f2f2f2;
+             text-align: center;
+             padding: 14px 16px;
+             text-decoration: none;
+             font-size: 17px;
+             padding-top: 1.5px;
+}
+.bottomlinks a:hover {
+background: #f1f1f1;
+color: black;
+}
+.bottomlinks a.active {
+background-color: #4CAF50;
+color: white;
+}
+.main {
+padding: 16px;
+margin-bottom: 30px;
+}
+h1{
+   font-size:45px;
+   width: 1000px;
+   margin: auto;
+   margin-top: 80px;
+   text-align: center;
+}
+p{
+   font-size:20px;
+   width: 1200px;
+   margin: auto;
+ text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  align-content: center;
+}
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+.header4 {
+   background-color:  #4CAF50; /* Green */
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: initial;
+  display: inline-block;
+  font-size: 16px;
+  padding-bottom: 25px;
+  padding-top:20px;
+
+}
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: black;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover {
+  background-color:  #4CAF50;
+}
+.center1{
+     position:center;
+     text-align: center;
+     width: 500px;
+     margin-left: 200px;
+     margin-top: 20px;
+     height: 200px;
+}
+.d{
+   font-size:20px;
+   width: 800px;
+   padding-top: 25px;
+   margin-left:50px;
+ text-align: center;
+}
+h1{
+   font-size:30px;
+   width: 1000px;
+   margin: auto;
+   margin-top: 30px;
+   padding-top: 20px;
+
+}
+.jumbotron{
+   background-color: #4CAF50;
+   border-radius: 50%;
+   height: 100px;
+   width: 70%;
+   margin-left: 30%;
+   margin-right: auto;
+  
+}
+h3{
+   width: 1000px;
+   margin: auto;
+   margin-top: 20px;
+   text-align: center;
+}
+img{
+margin-left: 800px;
+height: 100px;
+width: 200px;
+margin-right: 0%;
+
+}
