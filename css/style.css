@@ -2,11 +2,20 @@
     max-height: 100%;
     overflow: hidden;
     scroll-behavior: inherit;
+    width:90%;
+    margin:auto;
+    min-width:600px;
+    max-width:2000px;
     
 }
 body{
     align-content: center;
     text-align: center;
+     width:90%;
+    margin:auto;
+    min-width:400px;
+    max-width:2000px;
+    
 }
 
 * {box-sizing:border-box}
@@ -368,3 +377,11 @@ h1{
  h2{
   color: #4CAF50;
  }
+.bttn{
+    margin-top: 350px;
+    float: bottom;
+}
+#img{
+    height: 40%;
+    width: 50%;
+}
