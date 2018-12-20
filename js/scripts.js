@@ -12,9 +12,9 @@ $(document).ready(function() {
         formLogin.password.focus()
         return false
       }
-      if (username == "iankabugi" && password == "test123") {
+      if (username == "test" && password == "test123") {
         alert("Login successfully");
-        window.location.href = "vendor.html";
+        window.location.href = "vendorprofile-page.html";
         return false;
       } else {
         alert("Login failed - Please enter correct Username and Password")
