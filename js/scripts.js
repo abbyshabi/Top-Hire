@@ -14,7 +14,7 @@ $(document).ready(function() {
       }
       if (username == "test" && password == "test123") {
         alert("Login successfully");
-        window.location.href = "vendor.html";
+        window.location.href = "vendorprofile-page.html";
         return false;
       } else {
         alert("Login failed - Please enter correct Username and Password")

@@ -1,92 +1,98 @@
-.loginbox{
-    width: 420px;
-    height: 440px;
-    background: #4CAF50;
-    color: black;
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    box-sizing: border-box;
-    padding: 70px 30px;
+.loginbox {
+  width: 420px;
+  height: 440px;
+  background: #4CAF50;
+  color: black;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
 }
 
-.tophireicon{
-    width: 150px;
-    height: 100px;
-    border-radius:10px;
-    position: absolute;
-    top: -50px;
-    left: calc(50% - 50px);
-}
-.loginbox p{
-    margin:0;
-    padding: 0;
-    font-weight: bold;
+.tophireicon {
+  width: 150px;
+  height: 100px;
+  border-radius: 10px;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
 }
 
-.loginbox input{
-    width: 100%;
-    margin-bottom: 20px;
+.loginbox p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
 }
 
-.loginbox input[type="text"], input[type="password"]
-{
-    border: none;
-    border-bottom: 1px solid #fff;
-    background: transparent;
-    outline: none;
-    height: 40px;
-    color: #fff;
-    font-size: 16px;
-}
-.loginbox input[type="submit"]
-{
-    border: none;
-    outline: none;
-    height: 40px;
-    background: #fb2525;
-    color: #fff;
-    font-size: 18px;
-    border-radius: 20px;
-}
-.loginbox a{
-    text-decoration: none;
-    font-size: 12px;
-    line-height: 20px;
-    color: darkgrey;
+.loginbox input {
+  width: 100%;
+  margin-bottom: 20px;
 }
 
-.col-md-4{
+.loginbox input[type="text"], input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.loginbox input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #fb2525;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.loginbox a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+.col-md-4 {
   background-color: green;
   width: 250px;
 }
-.well{
+
+.well {
   background-color: 4CAF50;
 }
+
 .bottomlinks {
-   padding-top: 2px;
+  padding-top: 2px;
   background-color: #333;
   overflow: hidden;
   position: fixed;
   bottom: 0;
   width: 100%;
 }
-.bottomlinks a{
-               float: left;
-              display: block;
-             color: #f2f2f2;
-             text-align: center;
-             padding: 14px 16px;
-             text-decoration: none;
-             font-size: 17px;
-             padding-top: 1.5px;
+
+.bottomlinks a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  padding-top: 1.5px;
 }
+
 .bottomlinks a:hover {
-background: #f1f1f1;
-color: black;
+  background: #f1f1f1;
+  color: black;
 }
+
 .bottomlinks a.active {
-background-color: #4CAF50;
-color: white;
+  background-color: #4CAF50;
+  color: white;
 }
