@@ -83,11 +83,11 @@ a{
 }
 .container > header h1{
 	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
-	font-size: 100px;
+	font-size: 70px;
 	line-height: 35px;
 	position: relative;
 	font-weight: 400;
-	color: #53c653;
+	color: #fff;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
     padding: 0px 0px 5px 0px;
 }
@@ -95,11 +95,10 @@ a{
 
 }
 .container > header h2, p.info{
-	font-size: 25px;
+	font-size: 16px;
 	font-style: italic;
-	color: wheat;
+	color: #f8f8f8;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
-	padding-top: 35px;
 }
 /* Header Style */
 .codrops-top{
@@ -142,7 +141,7 @@ p.codrops-demos a,
 p.codrops-demos a.current-demo,
 p.codrops-demos a.current-demo:hover{
     display: inline-block;
-	border: 1px solid  #4CAF50;
+	
 	padding: 4px 10px 3px;
 	font-size: 13px;
 	line-height: 18px;
@@ -151,25 +150,26 @@ p.codrops-demos a.current-demo:hover{
 	-webkit-box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
 	-moz-box-shadow:0px 1px 1px rgba(0,0,0,0.1);
 	box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
-	color:black;
+	color:#fff;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
-	background:  #4CAF50;
-	
+
 }
 p.codrops-demos a:hover{
-	background:  #4CAF50;
+	background: #6d0019;
 }
 p.codrops-demos a:active{
-	background:  #4CAF50;
-	height: 50%;
+	background: #6d0019;
 	
+	-webkit-box-shadow: 0px 1px 1px rgba(255,255,255,0.9);
+	-moz-box-shadow:0px 1px 1px rgba(255,255,255,0.9);
+	box-shadow: 0px 1px 1px rgba(255,255,255,0.9);
 }
 p.codrops-demos a.current-demo,
 p.codrops-demos a.current-demo:hover{
 	color: #A5727D;
-	background:  #4CAF50
+	background: #6d0019;
 }
 /* Media Queries */
 @media screen and (max-width: 767px) {
