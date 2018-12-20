@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Vendor Register</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="shortcut icon" href="images/hire.logo.jpeg">
+  <h2> Vendor Sign up</h2> <br>
+</head>
+
+<body>
+  <div id="container">
+    <form name ="registration" class="vendor" method="post" onsubmit="return validate()" >
+      <div class="form-gro">
+        <label> First Name </label>
+        <br><input type="text" id="vendorN" class ="form-control" required placeholder="First name">
+      </div>
+      <div class="form-gro">
+        <label>Last Name </label>
+        <br><input type="text" id="vendorlN" class ="form-control" required placeholder="Last name">
+      </div>
+      <div class="form-gro">
+        <label> Username </label>
+        <br><input type="text" id="vendorUnm" class ="form-control" required placeholder="Username">
+      </div>
+      <div class="form-gro">
+        <label> Email</label>
+        <br><input type="email" id="vendorMail"class ="form-control" required placeholder="user@mail.com">
+      </div>
+      <div class="form-gro">
+        <label> Password</label>
+        <br><input type="password" id="vendorPwd" class ="form-control" required placeholder="Password">
+      </div>
+      <div class="form-gro">
+        <label>Contact</label>
+        <br><input type="text" id="vendorcnt" class ="form-control" required placeholder="Contact">
+      </div>
+      <br><button type="submit" name="register" id="regven"> Register</button>
+    </form>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+  
+  <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js></script>
+  <script src="js/register.js"></script>
+</body>
+
+</html>
