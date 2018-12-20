@@ -60,6 +60,9 @@ body{
   img{
       height: 40%;
       width: 50%;
+      align-self: center;
+      float: left;
+      padding-top: 70px;
   }
   .mySlides
    {
@@ -95,4 +98,16 @@ align-content: center;
   #left {
       float: right;
   }
-  
+  .center{
+    padding-top:0px ;
+      position:center;
+      text-align: center;
+  }
+  h3{
+      padding-top: 70px;
+  }
+  p{
+      padding-left:30px;
+      margin-left: auto;
+      margin-right: auto; 
+  }
